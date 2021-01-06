@@ -1,0 +1,17 @@
+import java.util.*;
+
+public class CantorTable{
+	public static void main(String args[]){
+		Scanner cin = new Scanner(System.in);
+		int n = cin.nextInt();
+		int i=0,j=0;
+		while(j<n) {
+			i++;
+			j+=i;
+		}
+		if(i%2==1)   //ji
+			System.out.print((j-n+1)+"/"+(i-j+n));
+		else         //ou
+			System.out.print((i-j+n)+"/"+(j-n+1));
+	}
+}
