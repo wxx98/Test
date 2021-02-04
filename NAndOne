@@ -1,0 +1,50 @@
+import java.util.*;
+public class NAndOne {
+	public static void main(String args[]) {
+		Scanner cin = new Scanner(System.in);
+		int n = cin.nextInt();
+		switch(n) {
+		case 1:
+			System.out.println("I love Luogu!");break;
+		case 2:
+			System.out.println((2+4)+" "+(10-2-4));break;
+		case 3:
+			System.out.println(14/4);
+			System.out.println((14/4)*4);
+			System.out.println(14%4);break;
+		case 4:
+			double a = 500.0/3;
+			System.out.printf("%.3f",a);break;
+		case 5:
+			System.out.println((220+260)/(12+20));break;
+		case 6:
+			System.out.println((int)Math.sqrt(6*6+9*9));break;
+		case 7:
+			System.out.println(100+10);
+			System.out.println(100+10-20);
+			System.out.println(0);break;
+		case 8:
+			double d = 2*3.141593*5*1.0;
+			double e = 3.141593*25*1.0;
+			double f = (4/3)*3.141593*25*5*1.0;
+			System.out.println(d);
+			System.out.println(e);
+			System.out.println(f);break;
+		case 9:
+			System.out.println(22);break;
+		case 10:
+			System.out.println(9);break;
+		case 11:
+			double c = (1.0*100)/3;
+			System.out.println(c);break;
+		case 12:
+			System.out.println(13);
+			System.out.println("R");break;
+		case 13:
+			int b = (int)Math.pow(((4/3)*3.141593*16*4+(4/3)*3.141593*1000),1.0*1/3);
+			System.out.println(b);break;
+		case 14:
+			System.out.println(50);break;
+		}
+	}
+}
