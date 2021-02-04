@@ -1,0 +1,17 @@
+import java.util.*;
+public class Main {
+	public static void main(String args[]) {
+		Scanner cin = new Scanner(System.in);
+		int m = cin.nextInt();
+		int t = cin.nextInt();
+		int s = cin.nextInt();
+		int a = 0;
+		if(t==0)
+			a = 0;
+		else if(s%t==0)
+			a = Math.max(m-s/t,0);
+		else
+			a = Math.max(m-s/t-1,0);
+		System.out.println(a);
+	}
+}
